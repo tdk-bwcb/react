@@ -3,6 +3,7 @@ import Chai from "./Chai"
 
 function App() {
   
+  const username = "hitesh"
 
   return (
     // <h1>Chai aur React | Vite</h1>
@@ -11,7 +12,8 @@ function App() {
     // therefore enclose in a div / fragment
     <>
       <Chai/>
-      <p>This is a para</p>
+      <p>This is a para {username}</p>  
+      {/* we can use variables using {evaluated expression}  */}
       <h4>this is h4</h4>
     </>
   )
