@@ -46,7 +46,7 @@ let newArr = [1, 2, 3, 4]
       {/* hitesh  */}
 
       <Card username="yash" btnText="click-me"/>
-      <Card username="sakshi" btnText="click-me"/>
+      <Card username="qwerty" btnText="click-me"/>
       <Card username="Default" />
       
 
